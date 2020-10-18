@@ -28,6 +28,8 @@ body {
 
 h2 {
     margin: 0;
+    padding: 1rem;
+    text-align: center;
 }
 
 ul {
@@ -38,6 +40,10 @@ ul {
 ul li {
     font-size: 1.1rem;
     margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
 }
 
 button {
@@ -54,4 +60,9 @@ button {
 
 button:hover {
     background-color: #751b9b;
+}
+
+button:focus {
+    background-color: #622c79;
+    outline: none;
 }
